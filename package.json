@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-descarteslabs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "eslint/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descarteslabs/devops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/descarteslabs/devops/issues"
+  },
+  "homepage": "https://github.com/descarteslabs/devops#readme",
+  "dependencies": {
+    "eslint": ">= 3",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.1"
+  }
+}
