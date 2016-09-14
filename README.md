@@ -1,1 +1,1 @@
-# devops
+# Collection of all things code style

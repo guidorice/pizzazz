@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descarteslabs/devops.git"
+    "url": "git+https://github.com/descarteslabs/pizzazz.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/descarteslabs/devops/issues"
+    "url": "https://github.com/descarteslabs/pizzazz/issues"
   },
-  "homepage": "https://github.com/descarteslabs/devops#readme",
+  "homepage": "https://github.com/descarteslabs/pizzazz#readme",
   "dependencies": {
     "eslint": ">= 3",
     "eslint-config-airbnb": "^11.0.0",

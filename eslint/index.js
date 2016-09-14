@@ -59,6 +59,6 @@ module.exports = {
         "react/sort-prop-types": ["error", {
             callbacksLast: true,
             requiredFirst: true
-        }]
-    }
+        }],
+    },
 };
