@@ -27,6 +27,7 @@ module.exports = {
         "brace-style": ["error", "1tbs", {
             allowSingleLine: true
         }],
+        "comma-dangle": ["error", "always-multiline"],
         "comma-style": ["error", "last"],
         "dot-notation": ["off"],
         "key-spacing": ["off"],
@@ -58,6 +59,7 @@ module.exports = {
         "react/require-extension": ["off"],
         "react/sort-prop-types": ["error", {
             callbacksLast: true,
+            ignoreCase: true,
             requiredFirst: true
         }],
     },
