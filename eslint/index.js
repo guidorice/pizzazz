@@ -42,6 +42,7 @@ module.exports = {
         "func-call-spacing": ["error", "never"],
         "prefer-arrow-callback": ["off"],
         "no-plusplus": ["off"],
+        "no-nested-ternary": ["off"],
         "no-prototype-builtins": ["off"],
         "no-underscore-dangle": ["off"],
         "no-unused-vars": ["error", {
