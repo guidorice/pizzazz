@@ -31,12 +31,14 @@ module.exports = {
         "comma-style": ["error", "last"],
         "dot-notation": ["off"],
         "key-spacing": ["off"],
+        "padded-blocks": ["off"],
         "quotes": ["error", "single", {
             avoidEscape: true,
         }],
         "quote-props": ["error", "consistent-as-needed"],
 
         "allowNamedFunctions": "off",
+        "camelcase": ["off"],
         "consistent-return": ["error"],
         "func-names": ["error", "always"],
         "func-call-spacing": ["error", "never"],
