@@ -31,24 +31,31 @@ module.exports = {
         "comma-style": ["error", "last"],
         "dot-notation": ["off"],
         "key-spacing": ["off"],
+        "padded-blocks": ["off"],
         "quotes": ["error", "single", {
             avoidEscape: true,
         }],
         "quote-props": ["error", "consistent-as-needed"],
 
         "allowNamedFunctions": "off",
+        "camelcase": ["off"],
         "consistent-return": ["error"],
         "func-names": ["error", "always"],
         "func-call-spacing": ["error", "never"],
         "prefer-arrow-callback": ["off"],
+        "new-cap": ["error", {
+            "capIsNew": false,
+        }],
         "no-plusplus": ["off"],
         "no-nested-ternary": ["off"],
         "no-prototype-builtins": ["off"],
         "no-underscore-dangle": ["off"],
         "no-unused-vars": ["error", {
             "argsIgnorePattern": "^_",
+            "ignoreRestSiblings": true,
         }],
         "no-use-before-define": ["error", "nofunc"],
+        "no-void": ["off"],
 
         "import/no-unresolved": ["off"],
         "react/forbid-prop-types": ["error", {
