@@ -1,5 +1,18 @@
 /* eslint-disable */
+
 import { css } from 'styled-components';
+import * as fonts from './fonts';
+
+/******************* TEXT *******************/
+export const text = (size = 'normal') => {
+  const fontSize = fonts.sizes[size];
+  const lineHeight = fonts.lineHeights[size];
+  return css`
+    ${fonts.fontBase}
+    font-size: ${fontSize};
+    line-height: ${lineHeight};
+  `;
+};
 
 /******************* FLEXBOX *******************/
 export const flex = ({ direction = 'row', justify = 'center', align = 'center' }) => css`
@@ -123,7 +136,7 @@ export const partial_border = ({ side, border, length = '5px' }) => {
   const isVertical = side === 'right' || side === 'left';
   const size = `calc(100% - (${length} * 2));`;
   return css`
-    &::{
+    &::after {
       content: "";
       position: absolute;
       ${isVertical ? 'height' : 'width'}: ${size};
