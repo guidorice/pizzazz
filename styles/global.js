@@ -4,9 +4,10 @@ import { injectGlobal } from 'styled-components';
 import { normalize } from 'polished';
 import * as colors from './colors';
 import * as fonts from './fonts';
+import { text } from './mixins';
 
 injectGlobal`
-    ${normalize()}
+    ${normalize(true)}
 
     * {
         box-sizing: border-box;
@@ -15,6 +16,8 @@ injectGlobal`
     html,
     body,
     #root {
+        ${fonts.fontBase}
+        ${text('medium')}
         margin: 0;
         padding: 0;
         color: ${colors.black};
