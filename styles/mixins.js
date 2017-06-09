@@ -23,11 +23,11 @@ export const flex = ({ direction = 'row', justify = 'center', align = 'center' }
 `;
 
 export const flex_row = ({ justify = 'center', align = 'center' }) => css`
-  ${flex({ direction: 'row', justify, center })}
+  ${flex({ direction: 'row', justify, align })}
 `;
 
 export const flex_col = ({ justify = 'center', align = 'center' }) => css`
-  ${flex({ direction: 'column', justify, center })}
+  ${flex({ direction: 'column', justify, align })}
 `;
 
 /******************* POSITIONING *******************/
