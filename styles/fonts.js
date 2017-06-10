@@ -5,36 +5,35 @@ export const fontUrl = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:
 export const fontFam = 'Source Sans Pro, sans-serif';
 
 export const weights = {
-    x_light : '200',
-    light   : '300',
-    normal  : '400',
-    bold    : '600',
-    x_bold  : '700',
+    'x-light'   : '200',
+    'light'     : '300',
+    'normal'    : '400',
+    'bold'      : '600',
+    'x-bold'    : '700',
 };
 
 export const sizes = {
-    xx_small    : '10px',
-    x_small     : '12px',
-    small       : '14px',
-    medium      : '16px',
-    large       : '20px',
-    x_large     : '26px',
-    xx_large    : '34px',
+    'xx-small'  : '10px',
+    'x-small'   : '12px',
+    'small'     : '14px',
+    'medium'    : '16px',
+    'large'     : '20px',
+    'x-large'   : '26px',
+    'xx-large'  : '34px',
 };
 
 export const lineHeights = {
-    xx_small    : '12px',
-    x_small     : '15px',
-    small       : '18px', // TODO: should this be 25px, as in the design doc?
-    medium      : '20px',
-    large       : '25px',
-    x_large     : '30px',
-    xx_large    : '40px',
+    'xx-small'  : '12px',
+    'x-small'   : '15px',
+    'small'     : '18px', // TODO: should this be 25px, as in the design doc?
+    'medium'    : '20px',
+    'large'     : '25px',
+    'x-large'   : '30px',
+    'xx-large'  : '40px',
 };
 
 export const fontBase = css`
     font-family: ${fontFam};
-    font-weight: ${weights.normal};
     -webkit-font-smoothing: subpixel-antialiased;
 `;
 

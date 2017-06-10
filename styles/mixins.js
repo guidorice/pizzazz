@@ -4,31 +4,43 @@ import { css } from 'styled-components';
 import * as fonts from './fonts';
 
 /******************* TEXT *******************/
-export const text = (size = 'normal') => {
+export const text = (opts = {}) => {
+  const { size = 'medium', weight = 'normal' } = opts;
   const fontSize = fonts.sizes[size];
   const lineHeight = fonts.lineHeights[size];
+  const fontWeight = fonts.weights[weight];
   return css`
     ${fonts.fontBase}
     font-size: ${fontSize};
     line-height: ${lineHeight};
+    font-weight: ${fontWeight};
   `;
 };
 
 /******************* FLEXBOX *******************/
-export const flex = ({ direction = 'row', justify = 'center', align = 'center' }) => css`
-  display: flex;
-  flex-direction: ${direction};
-  justify-content: ${justify};
-  align-items: ${align};
-`;
+export const flex = (opts = {}) => {
+  const { display = 'flex', direction = 'row', justify = 'center', align = 'center' } = opts;
+  return css`
+    display: ${display};
+    flex-direction: ${direction};
+    justify-content: ${justify};
+    align-items: ${align};
+  `;
+};
 
-export const flex_row = ({ justify = 'center', align = 'center' }) => css`
-  ${flex({ direction: 'row', justify, center })}
-`;
+export const flex_row = (opts = {}) => {
+  const { justify = 'center', align = 'center' } = opts;
+  return css`
+    ${flex({ direction: 'row', justify, align })}
+  `;
+};
 
-export const flex_col = ({ justify = 'center', align = 'center' }) => css`
-  ${flex({ direction: 'column', justify, center })}
-`;
+export const flex_col = (opts = {}) => {
+  const { justify = 'center', align = 'center' } = opts;
+  return css`
+    ${flex({ direction: 'column', justify, align })}
+  `;
+};
 
 /******************* POSITIONING *******************/
 export const self_center = css`
@@ -61,15 +73,18 @@ export const lego_block = (size = '.25rem') => css`
 `;
 
 /******************* BUTTONS AND ICONS *******************/
-export const icon_base = ({ size = '20px', width = '30px' }) => css`
-  height: 100%;
-  width: ${width};
-  box-sizing: border-box;
-  position: relative;
-  background-size: ${size};
-  background-repeat: no-repeat;
-  background-position: center;
-`;
+export const icon_base = (opts = {}) => {
+  const { size = '20px', width = '30px' } = opts;
+  return css`
+    height: 100%;
+    width: ${width};
+    box-sizing: border-box;
+    position: relative;
+    background-size: ${size};
+    background-repeat: no-repeat;
+    background-position: center;
+  `;
+};
 
 export const button = css`
   background: none;
@@ -82,7 +97,9 @@ export const button = css`
   }
 `;
 
-export const rounded_button = ({ height, width }) => css`
+export const rounded_button = ({
+  height = throwIfMissing('height'), width = throwIfMissing('width'),
+}) => css`
   ${button}
   height: ${height};
   width: ${width};
@@ -90,18 +107,24 @@ export const rounded_button = ({ height, width }) => css`
 `;
 
 // creates a button with an icon
-export const iconed_button = ({ size = '20px', width = '30px' }) => css`
-  ${button}
-  ${icon_base({ size, width })}
-`;
+export const iconed_button = (opts = {}) => {
+  const { size = '20px', width = '30px' } = opts;
+  return css`
+    ${button}
+    ${icon_base({ size, width })}
+  `;
+};
 
 // creates a button with text
-export const text_button = ({ heigth = '30px', width = '30px' }) => css`
-  ${button}
-  height: ${height};
-  width: ${width};
-  padding: 0;
-`;
+export const text_button = (opts = {}) => {
+  const { heigth = '30px', width = '30px' } = opts;
+  return css`
+    ${button}
+    height: ${height};
+    width: ${width};
+    padding: 0;
+  `;
+};
 
 /**
  * creates a checkbox icon, generally in a span in a label next to an input checkbox or radio tag
@@ -111,11 +134,14 @@ export const text_button = ({ heigth = '30px', width = '30px' }) => css`
         <span text />
     </label>
  */
-export const checkbox = ({ size = '20px', height = '30px', width = '30px' }) => css`
-  ${icon_base({ size, width })}
-  height: ${height};
-  vertical-align: middle;
-`;
+export const checkbox = (opts = {}) => {
+  const { size = '20px', height = '30px', width = '30px' } = opts;
+  return css`
+    ${icon_base({ size, width })}
+    height: ${height};
+    vertical-align: middle;
+  `;
+};
 
 /******************** PARTIAL BORDERS ********************/
 /**
@@ -132,7 +158,9 @@ export const checkbox = ({ size = '20px', height = '30px', width = '30px' }) => 
  *
  * Note: the parent element of the pseudo selector may require `position: relative`
  */
-export const partial_border = ({ side, border, length = '5px' }) => {
+export const partial_border = ({
+  side = throwIfMissing('size'), border = throwIfMissing('border'), length = '5px',
+}) => {
   const isVertical = side === 'right' || side === 'left';
   const size = `calc(100% - (${length} * 2));`;
   return css`
@@ -146,5 +174,9 @@ export const partial_border = ({ side, border, length = '5px' }) => {
     }
   `;
 };
+
+function throwIfMissing(name) {
+  throw new Error(`missing style param: ${name}`)
+}
 
 /* eslint-enable */
