@@ -16,8 +16,7 @@ injectGlobal`
     html,
     body,
     #root {
-        ${fonts.fontBase}
-        ${text('medium')}
+        ${text()}
         margin: 0;
         padding: 0;
         color: ${colors.black};
