@@ -5,11 +5,11 @@ export const fontUrl = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:
 export const fontFam = 'Source Sans Pro, sans-serif';
 
 export const weights = {
-    'x-light'   : '200',
-    'light'     : '300',
-    'normal'    : '400',
-    'bold'      : '600',
-    'x-bold'    : '700',
+    'x-light'   : 200,
+    'light'     : 300,
+    'normal'    : 400,
+    'bold'      : 600,
+    'x-bold'    : 700,
 };
 
 export const sizes = {
