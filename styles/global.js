@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-expressions */
+
 import { injectGlobal } from 'styled-components';
 import { normalize } from 'polished';
 import * as colors from './colors';
@@ -26,3 +28,5 @@ injectGlobal`
         min-width: 100vw;
     }
 `;
+
+/* eslint-enable no-unused-expressions */
