@@ -1,5 +1,3 @@
-/* eslint-disable no-multi-spaces */
-
 /* BLACKS AND WHITES */
 export const colorless      = 'rgba(255, 255, 255, 0)';
 export const white          = '#ffffff';
@@ -15,5 +13,3 @@ export const blue           = '#3b96d2';
 export const blue__dark     = '#3280b3';
 export const red            = '#ef5839';
 export const green          = '#68c15f';
-
-/* eslint-enable no-multi-spaces */
