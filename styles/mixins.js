@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { css } from 'styled-components';
 import * as fonts from './fonts';
 
@@ -176,3 +178,5 @@ export const partial_border = ({
 function throwIfMissing(name) {
   throw new Error(`missing style param: ${name}`)
 }
+
+/* eslint-enable */
