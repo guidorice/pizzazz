@@ -159,7 +159,7 @@ export const checkbox = (opts = {}) => {
  * Note: the parent element of the pseudo selector may require `position: relative`
  */
 export const partial_border = ({
-  side = throwIfMissing('size'), border = throwIfMissing('border'), length = '5px',
+  side = throwIfMissing('side'), border = throwIfMissing('border'), length = '5px',
 }) => {
   const isVertical = side === 'right' || side === 'left';
   const size = `calc(100% - (${length} * 2));`;
