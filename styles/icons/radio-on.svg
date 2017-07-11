@@ -1,0 +1,8 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <title>icon</title>
+  <g opacity="0.25">
+    <rect width="20" height="20" fill="none"/>
+  </g>
+  <circle cx="10" cy="10" r="8" fill="#2179b4"/>
+  <circle cx="10" cy="10" r="2.75" fill="#ffffff"/>
+</svg>
