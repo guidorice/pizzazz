@@ -96,3 +96,6 @@ ENV/
 
 # Sublime project settings
 *.sublime*
+
+# extra icons
+styles/icons/all
