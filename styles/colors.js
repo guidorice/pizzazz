@@ -5,6 +5,8 @@ export const colorless      = 'rgba(255, 255, 255, 0)';
 export const white          = '#ffffff';
 export const black          = '#333333';
 
+export const gray__xx_light = '#fafafa';
+export const gray__x_light  = '#f5f5f5';
 export const gray__light    = '#aaaaaa';
 export const gray           = '#969696';
 export const gray__dark     = '#6b6b6b';
@@ -39,8 +41,8 @@ export const secondary = {
 
 export const background = {
   ui_01         : white,
-  ui_02         : '#fafafa',
-  ui_03         : '#f5f5f5',
+  ui_02         : gray__xx_light,
+  ui_03         : gray__x_light,
   ui_04         : blue__x_light,
 };
 
