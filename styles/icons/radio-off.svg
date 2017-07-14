@@ -1,0 +1,8 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <title>icon</title>
+  <g opacity="0.25">
+    <rect width="20" height="20" fill="none"/>
+  </g>
+  <circle cx="10" cy="10" r="8" fill="#fff" opacity="0.4"/>
+  <path d="M10,2.8A7.2,7.2,0,1,1,2.8,10,7.21,7.21,0,0,1,10,2.8M10,2a8,8,0,1,0,8,8,8,8,0,0,0-8-8h0Z" fill="#4d606d" opacity="0.4"/>
+</svg>

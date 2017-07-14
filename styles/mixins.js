@@ -5,12 +5,14 @@ import * as fonts from './fonts';
 
 /******************* TEXT *******************/
 export const text = (opts = {}) => {
-  const { size = 'medium', weight = 'normal' } = opts;
-  const fontSize = fonts.sizes[size];
-  const lineHeight = fonts.lineHeights[size];
-  const fontWeight = fonts.weights[weight];
+  const { size = 'medium', weight = 'normal', code = false } = opts;
+  const fontBase    = code ? fonts.codeFontBase           : fonts.fontBase;
+  const fontSize    = code ? fonts.codeSizes[size]        : fonts.sizes[size];
+  const lineHeight  = code ? fonts.codeLineHeights[size]  : fonts.lineHeights[size];
+  const fontWeight  = fonts.weights[weight];
+
   return css`
-    ${fonts.fontBase}
+    ${fontBase}
     font-size: ${fontSize};
     line-height: ${lineHeight};
     font-weight: ${fontWeight};
