@@ -35,7 +35,7 @@ export const codeSizes = {
 export const lineHeights = {
   // TODO: what fraction of the size should these be? is it constant?
   'x-small'   : '15px',
-  'small'     : '18px',   // TODO: should this be 25px, as in the design doc?
+  'small'     : '18px',
   'medium'    : '20px',
   'large'     : '25px',
   'x-large'   : '30px',
