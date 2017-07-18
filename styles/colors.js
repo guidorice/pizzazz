@@ -1,5 +1,7 @@
 /* eslint-disable no-multi-spaces */
 
+import { rgba } from 'polished';
+
 /* BLACKS AND WHITES */
 export const colorless        = 'rgba(255, 255, 255, 0)';
 export const white            = '#ffffff';
@@ -13,19 +15,19 @@ export const gray             = '#c8c8c8';
 export const gray__dark       = '#aaaaaa';
 export const gray__x_dark     = '#8c8c8c';
 export const gray__xx_dark    = '#6b6b6b';
-export const gray__xxx_dark   = '#626366';
+export const gray__xxx_dark   = '#626366'; /* brand-01 */
 
 /* RAINBOW */
-export const purple           = '#834898';
-export const red              = '#e9232e';
-export const red__dark        = '#c93823';
-export const orange           = '#ed5941';
-export const yellow           = '#f59831';
-export const green            = '#56b64f';
+export const purple           = '#84449a'; /* brand-02 */
+export const red              = '#ec1e24'; /* brand-03 */
+export const red__dark        = '#cb3618';
+export const orange           = '#ef5839';
+export const yellow           = '#f7991c'; /* brand-04 */
+export const green            = '#52b847'; /* brand-05 */
 export const blue__x_light    = '#e6edf5';
-export const blue__light      = '#4197cf';
-export const blue             = '#3294bc';
-export const blue__dark       = '#197b20';
+export const blue__light      = '#3b96d2';
+export const blue             = '#2b94bf'; /* brand-06 */
+export const blue__dark       = '#0e71b3';
 
 /* PRIMARY, SECONDARY, BACKGROUND, BOUNDARY and BRAND */
 export const primary = {
@@ -62,5 +64,10 @@ export const brand = {
   green       : green,
   blue        : blue,
 }
+
+const scrimTop = rgba( 59, 150, 210, 0.4 );
+const scrimBottom = rgba( 115, 178, 94, 0.4 );
+export const scrim = `linear-gradient(${scrimTop}, ${scrimBottom})`;
+
 
 /* eslint-enable no-multi-spaces */
