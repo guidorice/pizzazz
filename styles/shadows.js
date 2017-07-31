@@ -1,5 +1,7 @@
 /* eslint-disable */
 
+import { css } from 'styled-components';
+
 /*
   map controls
   thumbnails
