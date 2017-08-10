@@ -42,19 +42,19 @@ export const secondary = {
   red         : orange,
 };
 
-export const fill = {
-  ui_01       : white,
-  ui_02       : gray__xxx_light,
-  ui_03       : gray__xx_light,
-  ui_04       : gray__x_light,
-};
+export const fill = [
+  white,
+  gray__xxx_light,
+  gray__xx_light,
+  gray__x_light,
+];
 
-export const stroke = {
-  ui_01       : gray__light,
-  ui_02       : gray,
-  ui_03       : gray__dark,
-  ui_04       : gray__x_dark,
-};
+export const stroke = [
+  gray__light,
+  gray,
+  gray__dark,
+  gray__x_dark,
+];
 
 export const brand = {
   gray        : gray__xxx_dark,
