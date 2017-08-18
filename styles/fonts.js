@@ -32,6 +32,9 @@ export const codeSizes = {
   'medium'    : '0.875rem',
 }
 
+export const defaultLineHeight = '1.5rem';
+export const defaultParagraphHeight = '2.25rem';
+
 export const lineHeights = {
   // TODO: what fraction of the size should these be? is it constant?
   'x-small'   : '15px',

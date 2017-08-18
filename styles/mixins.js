@@ -19,6 +19,16 @@ export const text = (opts = {}) => {
   `;
 };
 
+export const text_box = (opts = {}) => {
+  const { height = '1rem', lineHeight = '1rem' } = opts;
+
+  return css`
+    height: ${height};
+    line-height: ${lineHeight};
+    text-align: center;
+  `;
+}
+
 /******************* FLEXBOX *******************/
 export const flex = (opts = {}) => {
   const { display = 'flex', direction = 'row', justify = 'center', align = 'center' } = opts;
