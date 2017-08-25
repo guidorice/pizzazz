@@ -1,4 +1,4 @@
-/* eslint-disable no-multi-spaces */
+/* eslint-disable */
 
 import { rgba } from 'polished';
 
@@ -70,4 +70,4 @@ const scrimBottom = rgba( 115, 178, 94, 0.4 );
 export const scrim = `linear-gradient(${scrimTop}, ${scrimBottom})`;
 
 
-/* eslint-enable no-multi-spaces */
+/* eslint-enable */
