@@ -29,6 +29,14 @@ export const text_box = (opts = {}) => {
   `;
 }
 
+export const ellipsis = css`
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-word;
+  word-wrap: break-word;
+`;
+
 /******************* FLEXBOX *******************/
 export const flex = (opts = {}) => {
   const { display = 'flex', direction = 'row', justify = 'center', align = 'center' } = opts;
