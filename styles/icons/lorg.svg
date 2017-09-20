@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="36px" viewBox="0 0 75 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/logo/lorg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-724.000000, -1086.000000)">
+            <g id="Brand" transform="translate(624.000000, 1000.000000)">
+                <g id="Icon/logo/medium-name" transform="translate(100.000000, 86.000000)">
+                    <g id="Icon" stroke-width="1" fill-rule="evenodd" transform="translate(3.000000, 2.840000)">
+                        <polygon id="Fill-1" fill="#626366" opacity="0.504812047" points="15.0045259 6.50834284 7.51164788 10.8357235 7.51164788 19.4878588 15.0056001 23.8126134 22.4984582 19.4857301 22.4984582 10.834132"></polygon>
+                        <polygon id="Fill-3" fill="#2B94BE" opacity="0.498131793" points="15.0045259 10.8395013 7.51274204 6.51315517 0.0198839523 10.8395013 0.0198839523 19.4921737 7.51274204 23.8169284 15.0056001 19.489508"></polygon>
+                        <polygon id="Fill-6" fill="#84449A" opacity="0.504812047" points="11.257305 0.0258083554 3.76659549 4.34996618 3.76659549 13.0026983 11.2583594 17.3273932 18.7501631 13.0026983 18.7507003 4.34996618"></polygon>
+                        <polygon id="Fill-8" fill="#52B848" opacity="0.504812047" points="18.7507003 17.3273992 11.2583594 13.0021472 3.76659549 17.3273992 3.76659549 25.9800716 11.2583594 30.3053634 18.7517944 25.9800716"></polygon>
+                        <polygon id="Fill-10" fill="#EC1E24" opacity="0.504812047" points="18.7571499 0.019862069 11.2648289 4.34624801 11.2648289 12.9989204 18.7571499 17.3230782 26.2505252 12.9967918 26.2516194 4.34515385"></polygon>
+                        <polygon id="Fill-12" fill="#F7991C" opacity="0.5" points="22.5038654 6.50834284 15.0115046 10.8357235 15.0115046 19.4878588 22.5043627 23.8126134 29.9972208 19.4857301 29.9972208 10.834132"></polygon>
+                    </g>
+                    <text id="Product-Name" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="24" fill="#333333">
+                        <tspan x="40" y="21">Lorg</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
