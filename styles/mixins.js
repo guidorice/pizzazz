@@ -146,6 +146,14 @@ export const text_button = (opts = {}) => {
   `;
 };
 
+export const rounded_outline = (opts = {}) => {
+  const { size = '2px', color = 'gray' } = opts;
+  return css`
+    outline: none;
+    box-shadow: 0 0 0 ${size} ${color};
+  `;
+};
+
 /**
  * creates a checkbox icon, generally in a span in a label next to an input checkbox or radio tag
     <input checkbox />
