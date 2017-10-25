@@ -14,8 +14,8 @@ export const text = (opts = {}) => {
   return css`
     ${fontBase}
     font-size: ${fontSize};
-    line-height: ${lineHeight};
     font-weight: ${fontWeight};
+    line-height: ${lineHeight};
   `;
 };
 

@@ -37,13 +37,13 @@ export const defaultParagraphHeight = '2.25rem';
 
 export const lineHeights = {
   // TODO: what fraction of the size should these be? is it constant?
-  'x-small'   : '15px',
-  'small'     : '18px',
-  'medium'    : '20px',
-  'large'     : '25px',
-  'x-large'   : '30px',
-  'xx-large'  : '40px',
-  'xxx-large' : '56px',   // TODO: is this correct?
+  'x-small'   : 1.5,
+  'small'     : 1.5,
+  'medium'    : 1.5,
+  'large'     : 1.5,
+  'x-large'   : 1.5,
+  'xx-large'  : 1.5,
+  'xxx-large' : 1.5,   // TODO: is this correct?
 };
 
 // TODO: update this with appropriate code line heights
