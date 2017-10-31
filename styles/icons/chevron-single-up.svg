@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/angle/up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.54125334,8.88199958 C6.28624876,9.13699958 6.28624876,9.54999958 6.54125334,9.80499958 L11.5433431,14.8049996 C11.6643453,14.9269996 11.8313483,14.9979996 12.0053514,14.9979996 C12.1793545,14.9979996 12.3463575,14.9269996 12.4693597,14.8039996 L17.4694494,9.80499958 C17.6334524,9.64099958 17.6984535,9.39999958 17.6374524,9.17399958 C17.5784514,8.94999958 17.4014482,8.77199958 17.1774442,8.71299958 C16.9514401,8.65299958 16.7094358,8.71699958 16.5464329,8.88199958 L12.0103515,13.4149996 L7.46526992,8.88099958 C7.33726762,8.75399958 7.17026462,8.68999958 7.00326163,8.68999958 C6.83625863,8.68999958 6.66925563,8.75399958 6.54125334,8.88199958 Z" id="path-1"></path>
+    </defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-238.000000, -160.000000)">
+            <g id="Arrows" transform="translate(40.000000, 120.000000)">
+                <g id="Icon/angle/up-a01" transform="translate(198.000000, 40.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Icon" fill="#333333" fill-rule="evenodd" transform="translate(12.005000, 11.844000) rotate(180.000000) translate(-12.005000, -11.844000) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
