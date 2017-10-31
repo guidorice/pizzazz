@@ -1,8 +1,17 @@
-<svg id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-  <title>icon</title>
-  <g opacity="0.25">
-    <rect width="20" height="20" fill="none"/>
-  </g>
-  <rect x="2" y="2" width="16" height="16" rx="2" ry="2" fill="#2179b4" />
-  <polygon points="8.34 16.3 4.17 10.05 5.83 8.95 8.34 12.7 14.17 3.94 15.83 5.05 8.34 16.3" fill="#ffffff"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/checkbox/on</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-590.000000, -480.000000)">
+            <g id="Checkbox" transform="translate(590.000000, 440.000000)">
+                <g id="Icon/checkbox/on" transform="translate(0.000000, 40.000000)">
+                    <rect id="Square" fill="#0E71B3" x="4" y="4" width="16" height="16" rx="2"></rect>
+                    <path d="M6.30874336,12.2579487 C6.23211752,12.1431018 6.25924881,11.9908592 6.37354858,11.9151184 L7.62645142,11.0848816 C7.73886819,11.0103885 7.89204529,11.0426971 7.9649485,11.1516163 L10.2050515,14.4983837 C10.2795815,14.6097333 10.4054736,14.6016211 10.4783629,14.4920997 L16.0316371,6.14790034 C16.1080528,6.03308015 16.2592488,5.99967842 16.3735486,6.07610779 L17.6264514,6.91389221 C17.7388682,6.98906247 17.7652485,7.1472569 17.6870655,7.26468803 L10.4829345,18.085312 C10.403994,18.2038809 10.2810516,18.211648 10.2012566,18.0920513 L6.30874336,12.2579487 Z" id="Checkmark" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
