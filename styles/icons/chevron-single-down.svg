@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/angle/down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.54125334,9.192 C6.28624876,9.447 6.28624876,9.86 6.54125334,10.115 L11.5433431,15.115 C11.6643453,15.237 11.8313483,15.308 12.0053514,15.308 C12.1793545,15.308 12.3463575,15.237 12.4693597,15.114 L17.4694494,10.115 C17.6334524,9.951 17.6984535,9.71 17.6374524,9.484 C17.5784514,9.26 17.4014482,9.082 17.1774442,9.023 C16.9514401,8.963 16.7094358,9.027 16.5464329,9.192 L12.0103515,13.725 L7.46526992,9.191 C7.33726762,9.064 7.17026462,9 7.00326163,9 C6.83625863,9 6.66925563,9.064 6.54125334,9.192 Z" id="path-1"></path>
+    </defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-278.000000, -160.000000)">
+            <g id="Arrows" transform="translate(40.000000, 120.000000)">
+                <g id="Icon/angle/down-a01" transform="translate(238.000000, 40.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Icon" fill="#333333" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
