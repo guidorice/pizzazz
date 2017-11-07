@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="download-a" d="M11,12.8786797 L11,3 L13,3 L13,12.8786797 L16.2928932,9.58578644 L17.7071068,11 L12,16.7071068 L6.29289322,11 L7.70710678,9.58578644 L11,12.8786797 Z M19,19 L19,15 L21,15 L21,20 C21,20.5522847 20.5522847,21 20,21 L4,21 C3.44771525,21 3,20.5522847 3,20 L3,15 L5,15 L5,19 L19,19 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#333" fill-rule="nonzero" xlink:href="#download-a"/>
+  </g>
+</svg>
