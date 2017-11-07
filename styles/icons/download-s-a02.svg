@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
   <defs>
-    <path id="download-s-a02-a" d="M11,11.8786797 L11,3 L13,3 L13,11.8786797 L16.2928932,8.58578644 L17.7071068,10 L12,15.7071068 L6.29289322,10 L7.70710678,8.58578644 L11,11.8786797 Z M18,17 L18,14 L20,14 L20,18.1666667 C20,18.626904 19.6020309,19 19.1111111,19 L4.88888889,19 C4.39796911,19 4,18.626904 4,18.1666667 L4,14 L6,14 L6,17 L18,17 Z"/>
+    <path id="download-s-a02-a" d="M11,12.8786797 L11,4 L13,4 L13,12.8786797 L16.2928932,9.58578644 L17.7071068,11 L12,16.7071068 L6.29289322,11 L7.70710678,9.58578644 L11,12.8786797 Z M18,18 L18,15 L20,15 L20,19.1666667 C20,19.626904 19.6020309,20 19.1111111,20 L4.88888889,20 C4.39796911,20 4,19.626904 4,19.1666667 L4,15 L6,15 L6,18 L18,18 Z"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="download-s-a02-b" fill="#fff">
-      <use xlink:href="#download-s-a02-a"/>
-    </mask>
-    <g fill="#0E71B3" mask="url(#download-s-a02-b)">
-      <rect width="24" height="24"/>
-    </g>
+    <use fill="#0E71B3" fill-rule="nonzero" xlink:href="#download-s-a02-a"/>
   </g>
 </svg>

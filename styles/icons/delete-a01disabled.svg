@@ -2,12 +2,7 @@
   <defs>
     <path id="delete-a01disabled-a" d="M9,6 C9,4.8954305 10.3431458,4 12,4 C13.6568542,4 15,4.8954305 15,6 L19,6 L19,9 L17.8681319,9 L17.2660495,18.1315824 C17.1967391,19.1827898 16.3238725,20 15.2703827,20 L8.72961731,20 C7.67612745,20 6.80326087,19.1827898 6.73395049,18.1315824 L6.13186813,9 L5,9 L5,6 L9,6 Z M16.8659606,9 L7.13403943,9 L7.7317839,18.0657912 C7.76643909,18.5913949 8.20287238,19 8.72961731,19 L15.2703827,19 C15.7971276,19 16.2335609,18.5913949 16.2682161,18.0657912 L16.8659606,9 Z"/>
   </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="delete-a01disabled-b" fill="#fff">
-      <use xlink:href="#delete-a01disabled-a"/>
-    </mask>
-    <g fill="#333" mask="url(#delete-a01disabled-b)" opacity=".3">
-      <rect width="24" height="24" transform="rotate(90 12 12)"/>
-    </g>
+  <g fill="none" fill-rule="evenodd" opacity=".3">
+    <use fill="#333" fill-rule="nonzero" xlink:href="#delete-a01disabled-a"/>
   </g>
 </svg>

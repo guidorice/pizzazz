@@ -3,11 +3,6 @@
     <path id="point-a" d="M12,13 C12.5522847,13 13,12.5522847 13,12 C13,11.4477153 12.5522847,11 12,11 C11.4477153,11 11,11.4477153 11,12 C11,12.5522847 11.4477153,13 12,13 Z M12,15 C10.3431458,15 9,13.6568542 9,12 C9,10.3431458 10.3431458,9 12,9 C13.6568542,9 15,10.3431458 15,12 C15,13.6568542 13.6568542,15 12,15 Z"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="point-b" fill="#fff">
-      <use xlink:href="#point-a"/>
-    </mask>
-    <g fill="#333" mask="url(#point-b)">
-      <rect width="24" height="24" transform="rotate(90 12 12)"/>
-    </g>
+    <use fill="#333" fill-rule="nonzero" xlink:href="#point-a"/>
   </g>
 </svg>
