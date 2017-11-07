@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="upload-s-a02-a" d="M11,7.41421356 L7.70710678,10.7071068 L6.29289322,9.29289322 L12,3.58578644 L17.7071068,9.29289322 L16.2928932,10.7071068 L13,7.41421356 L13,16 L11,16 L11,7.41421356 Z M18,18 L18,15 L20,15 L20,19.1666667 C20,19.626904 19.6020309,20 19.1111111,20 L4.88888889,20 C4.39796911,20 4,19.626904 4,19.1666667 L4,15 L6,15 L6,18 L18,18 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#0E71B3" fill-rule="nonzero" xlink:href="#upload-s-a02-a"/>
+  </g>
+</svg>
