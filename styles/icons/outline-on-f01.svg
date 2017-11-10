@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/outline/on-f01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-1210.000000, -800.000000)">
+            <g id="Visibility" transform="translate(1170.000000, 680.000000)">
+                <g id="Icon/outline/on-f01" transform="translate(40.000000, 120.000000)">
+                    <g id="Group" transform="translate(1.000000, 5.000000)">
+                        <polygon id="Shape" fill="#FFFFFF" opacity="0.3" points="14.5899267 7 18.1798535 4.71550117 11 0.146503505 3.82014653 4.71550117 7.41007326 7 3.82014653 9.28449883 11 13.8534965 18.1798535 9.28449883"></polygon>
+                        <path d="M11.0007792,0.502096364 L0.789787771,7 L11.0007792,13.4979036 L21.2117706,7 L11.0007792,0.502096364 Z" id="Outline" stroke="#FFFFFF" stroke-width="0.6"></path>
+                        <polygon id="Outline" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round" points="10.9968548 0.146503505 18.1767083 4.71550117 10.9968548 9.28449883 3.81700134 4.71550117"></polygon>
+                        <polygon id="Outline" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round" points="10.9968548 4.71550117 18.1767083 9.28449883 10.9968548 13.8534965 3.81700134 9.28449883"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

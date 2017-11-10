@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/zoom/out-f01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.5,11 C18.775,11 19,11.225 19,11.5 L19,12.5 C19,12.775 18.775,13 18.5,13 L5.5,13 C5.225,13 5,12.775 5,12.5 L5,11.5 C5,11.225 5.225,11 5.5,11 L18.5,11 Z" id="path-1"></path>
+    </defs>
+    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Core/Icons" transform="translate(-830.000000, -240.000000)">
+            <g id="Zoom" transform="translate(670.000000, 120.000000)">
+                <g id="Icon/zoom/out-f01" transform="translate(160.000000, 120.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Icon" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
