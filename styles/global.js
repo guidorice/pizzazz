@@ -16,7 +16,6 @@ injectGlobal`
     html,
     body,
     #root {
-        ${text()}
         margin: 0;
         padding: 0;
         color: ${colors.black};
@@ -26,6 +25,10 @@ injectGlobal`
         max-width: 100vw;
         min-height: 100vh;
         min-width: 100vw;
+    }
+
+    #root {
+        ${text()};
     }
 `;
 
