@@ -6,10 +6,10 @@ import * as fonts from './fonts';
 /******************* TEXT *******************/
 export const text = (opts = {}) => {
   const { size = 'medium', weight = 'normal', code = false } = opts;
-  const fontBase    = code ? fonts.codeFontBase           : fonts.fontBase;
-  const fontSize    = code ? fonts.codeSizes[size]        : fonts.sizes[size];
-  const lineHeight  = code ? fonts.codeLineHeights[size]  : fonts.lineHeights[size];
-  const fontWeight  = fonts.weights[weight];
+  const fontBase    = code ? fonts.codeFontBase                   : fonts.fontBase;
+  const fontSize    = code ? fonts.codeSizes[size] || size        : fonts.sizes[size] || size;
+  const lineHeight  = code ? fonts.codeLineHeights[size] || size  : fonts.lineHeights[size] || size;
+  const fontWeight  = fonts.weights[weight] || weight;
 
   return css`
     ${fontBase}
@@ -39,26 +39,27 @@ export const ellipsis = css`
 
 /******************* FLEXBOX *******************/
 export const flex = (opts = {}) => {
-  const { display = 'flex', direction = 'row', justify = 'center', align = 'center' } = opts;
+  const { display = 'flex', direction = 'row', justify = 'flex-start', align = 'stretch', wrap = 'nowrap' } = opts;
   return css`
     display: ${display};
     flex-direction: ${direction};
+    flex-wrap: ${wrap};
     justify-content: ${justify};
     align-items: ${align};
   `;
 };
 
 export const flex_row = (opts = {}) => {
-  const { justify = 'center', align = 'center' } = opts;
+  const { justify = 'flex-start', align = 'stretch', wrap = 'nowrap' } = opts;
   return css`
-    ${flex({ direction: 'row', justify, align })}
+    ${flex({ direction: 'row', justify, align, wrap })}
   `;
 };
 
 export const flex_col = (opts = {}) => {
-  const { justify = 'center', align = 'center' } = opts;
+  const { justify = 'flex-start', align = 'stretch', wrap = 'nowrap'} = opts;
   return css`
-    ${flex({ direction: 'column', justify, align })}
+    ${flex({ direction: 'column', justify, align, wrap })}
   `;
 };
 
