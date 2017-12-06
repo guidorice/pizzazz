@@ -9,27 +9,27 @@ export const primaryFontFam     = 'Source Sans Pro, -apple-system, BlinkMacSyste
 export const secondaryFontFam   = 'Source Code Pro, Courier, mono';
 
 export const weights = {
-  'x-light'   : 200,
-  'light'     : 300,
-  'normal'    : 400,
-  'semibold'  : 600,
-  'bold'      : 700,
+  x_light   : 200,
+  light     : 300,
+  normal    : 400,
+  semibold  : 600,
+  bold      : 700,
 };
 
 export const sizes = {
-  'x-small'   : '0.75rem',
-  'small'     : '0.875rem',
-  'medium'    : '1rem',
-  'large'     : '1.25rem',
-  'x-large'   : '1.625rem',
-  'xx-large'  : '2rem',
-  'xxx-large' : '2.875rem',
+  x_small   : '0.75rem',
+  small     : '0.875rem',
+  medium    : '1rem',
+  large     : '1.25rem',
+  x_large   : '1.625rem',
+  xx_large  : '2rem',
+  xxx_large : '2.875rem',
 };
 
 export const codeSizes = {
-  'x-small'   : '0.6875rem',
-  'small'     : '0.8125rem',
-  'medium'    : '0.875rem',
+  x_small   : '0.6875rem',
+  small     : '0.8125rem',
+  medium    : '0.875rem',
 }
 
 export const defaultLineHeight = '1.5rem';
@@ -37,13 +37,13 @@ export const defaultParagraphHeight = '2.25rem';
 
 export const lineHeights = {
   // TODO: what fraction of the size should these be? is it constant?
-  'x-small'   : 1.5,
-  'small'     : 1.5,
-  'medium'    : 1.5,
-  'large'     : 1.5,
-  'x-large'   : 1.5,
-  'xx-large'  : 1.5,
-  'xxx-large' : 1.5,   // TODO: is this correct?
+  x_small   : 1.5,
+  small     : 1.5,
+  medium    : 1.5,
+  large     : 1.5,
+  x_large   : 1.5,
+  xx_large  : 1.5,
+  xxx_large : 1.5,   // TODO: is this correct?
 };
 
 // TODO: update this with appropriate code line heights

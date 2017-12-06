@@ -99,3 +99,7 @@ ENV/
 
 # extra icons
 styles/icons/all
+
+# tmp files
+*.swp
+*.swo
