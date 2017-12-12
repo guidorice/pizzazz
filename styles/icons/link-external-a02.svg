@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/menu/link-external-a02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-680.000000, -1100.000000)">
+        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#0E71B3">
+            <g id="Icon/menu/link-external-a02" transform="translate(620.000000, 326.000000)">
+                <path d="M5.0006,0 L9.0006,0 L9.0006,4 L7.7996,4 L7.7996,2.191 L3.8736,6.116 L2.8836,5.126 L6.8096,1.201 L5.0006,1.201 L5.0006,0 Z M6.8,6.3999 L6.8,5.7999 L8,5.7999 L8,6.3999 C8,7.8339 6.834,8.9999 5.4,8.9999 L1.2,8.9999 L0,8.9999 L0,7.7999 L0,3.5999 C0,2.1669 1.167,0.9999 2.6,0.9999 L3.2,0.9999 L3.2,2.1999 L2.6,2.1999 C1.828,2.1999 1.2,2.8279 1.2,3.5999 L1.2,7.7999 L5.4,7.7999 C6.172,7.7999 6.8,7.1719 6.8,6.3999 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

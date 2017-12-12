@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/menu/tasks-f01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-460.000000, -1100.000000)">
+        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#FFFFFF">
+            <g id="Icon/menu/tasks-f01" transform="translate(400.000000, 326.000000)">
+                <path d="M16.1272021,20 L21,20 L21,21 L13,21 L13,20 L13,13 L14,13 L14,19.747965 C17.4504544,18.8598794 20,15.7276789 20,12 C20,7.92038235 16.9463116,4.55399184 13,4.06189375 L13,3.05492878 C17.4999505,3.55237307 21,7.36744635 21,12 C21,15.4829314 19.021559,18.5037731 16.1272021,20 Z M7.87279794,4 L3,4 L3,3 L11,3 L11,4 L11,11 L10,11 L10,4.25203497 C6.54954557,5.14012056 4,8.27232114 4,12 C4,16.0796177 7.05368842,19.4460082 11,19.9381062 L11,20.9450712 C6.50004954,20.4476269 3,16.6325537 3,12 C3,8.51706864 4.97844102,5.49622694 7.87279794,4 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

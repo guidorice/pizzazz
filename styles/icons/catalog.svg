@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/menu/catalog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-180.000000, -1060.000000)">
+        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#333333" fill-rule="nonzero">
+            <g id="Icon/menu/catalog-a01" transform="translate(120.000000, 286.000000)">
+                <path d="M11.9988511,2.16403657 L2.20372748,8 L11.9988511,13.8359634 L21.7939748,8 L11.9988511,2.16403657 Z M11.9988511,1 L23.7477023,8 L11.9988511,15 L0.25,8 L11.9988511,1 Z M21.3171013,14.5506847 L23.75,16.0000711 L12,23.0000711 L0.25,16.0000711 L2.68404765,14.5500002 L3.66105468,15.13199 L2.20391853,16.0000711 L12,21.8360346 L21.7960815,16.0000711 L20.3400942,15.1326745 L21.3171013,14.5506847 Z M21.3171013,10.5506847 L23.75,12.0000711 L12,19.0000711 L0.25,12.0000711 L2.68404765,10.5500002 L3.66105468,11.13199 L2.20391853,12.0000711 L12,17.8360346 L21.7960815,12.0000711 L20.3400942,11.1326745 L21.3171013,10.5506847 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

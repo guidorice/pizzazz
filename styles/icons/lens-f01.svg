@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/menu/lens-f01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-260.000000, -1100.000000)">
+        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Icon/menu/lens-f01" transform="translate(200.000000, 326.000000)">
+                <path d="M19.6499425,15.5159543 L23.1708204,17.2763932 L22.7236068,18.1708204 L18.6841523,16.1510932 C16.7014143,17.2950581 13.9900247,18 11,18 C4.92486775,18 0,15.0898509 0,11.5 C0,7.91014913 4.92486775,5 11,5 C17.0751322,5 22,7.91014913 22,11.5 C22,13.0158111 21.1219244,14.4104353 19.6499425,15.5159543 Z M11,17 C16.5952487,17 21,14.3971924 21,11.5 C21,8.60280759 16.5952487,6 11,6 C5.40475131,6 1,8.60280759 1,11.5 C1,14.3971924 5.40475131,17 11,17 Z M19,11.5 L17.8024453,12.0239302 C17.2896244,12.7202129 15.8174158,13.4030813 13.8459207,13.7549097 L11,15 C15.418278,15 19,13.4329966 19,11.5 Z M3,11.5 L4.19755474,10.9760698 C4.71037565,10.2797871 6.18258423,9.59691869 8.15407929,9.24509031 L11,8 C6.581722,8 3,9.56700338 3,11.5 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

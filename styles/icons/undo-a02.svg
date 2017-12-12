@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/tool/undo-a02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-660.000000, -1260.000000)">
+        <g id="Map-Area-Tools" transform="translate(60.000000, 1180.000000)" stroke="#0E71B3" stroke-width="1.8">
+            <g id="Icon/tool/undo-a02" transform="translate(600.000000, 80.000000)">
+                <polyline id="Stroke-2" points="10.9497 13.9502 5.9997 9.0002 10.9497 4.0512"></polyline>
+                <path d="M6,9 L14,9 C16.485,9 18.5,11.015 18.5,13.5 C18.5,15.985 16.485,18 14,18 L5,18" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
