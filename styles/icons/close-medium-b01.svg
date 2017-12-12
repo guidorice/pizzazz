@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/clear/medium-b01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.0606602,12 L17.7803301,16.7196699 C18.0732233,17.0125631 18.0732233,17.4874369 17.7803301,17.7803301 C17.4874369,18.0732233 17.0125631,18.0732233 16.7196699,17.7803301 L12,13.0606602 L7.28033009,17.7803301 C6.98743687,18.0732233 6.51256313,18.0732233 6.21966991,17.7803301 C5.9267767,17.4874369 5.9267767,17.0125631 6.21966991,16.7196699 L10.9393398,12 L6.21966991,7.28033009 C5.9267767,6.98743687 5.9267767,6.51256313 6.21966991,6.21966991 C6.51256313,5.9267767 6.98743687,5.9267767 7.28033009,6.21966991 L12,10.9393398 L16.7196699,6.21966991 C17.0125631,5.9267767 17.4874369,5.9267767 17.7803301,6.21966991 C18.0732233,6.51256313 18.0732233,6.98743687 17.7803301,7.28033009 L13.0606602,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-500.000000, -860.000000)">
+        <g id="Clear" transform="translate(460.000000, 780.000000)">
+            <g id="Icon/clear/medium-b01" transform="translate(40.000000, 80.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Icon" fill="#6B6B6B" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
     <title>Icon/eye/open</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Core/Icons" transform="translate(-1290.000000, -720.000000)" fill="#333333">
-            <g id="Visibility" transform="translate(1170.000000, 680.000000)">
-                <g id="Icon/eye/open-a01" transform="translate(120.000000, 40.000000)">
-                    <path d="M13.1805275,7.91393007 C14.4481923,8.39135856 15.3499994,9.61536496 15.3499994,11.0499997 C15.3499994,12.9001536 13.8501534,14.3999996 11.9999995,14.3999996 C10.1498457,14.3999996 8.64999962,12.9001536 8.64999962,11.0499997 C8.64999962,9.61890895 9.54735681,8.39740719 10.8100837,7.91748192 C8.07332654,8.44813718 5.64264765,10.6539839 4.374,12.004 C5.817,13.548 8.768,16.2 12,16.2 C15.208,16.2 18.176,13.539 19.626,11.996 C18.3609413,10.6423959 15.936865,8.437206 13.1805275,7.91393007 Z M12,6 C17.523,6 22,12 22,12 C22,12 17.523,18 12,18 C6.477,18 2,12 2,12 C2,12 6.477,6 12,6 Z" id="Icon"></path>
-                </g>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1280.000000, -820.000000)">
+        <g id="Visibility" transform="translate(1160.000000, 780.000000)" fill="#333333">
+            <g id="Icon/eye/open-a01" transform="translate(120.000000, 40.000000)">
+                <path d="M12,6 C6.477,6 2,12 2,12 C2,12 6.477,18 12,18 C17.523,18 22,12 22,12 C22,12 17.523,6 12,6 M12,7.6 C15.412,7.6 18.499,10.468 19.909,12.007 C18.298,13.765 15.197,16.4 12,16.4 C8.588,16.4 5.501,13.532 4.091,11.993 C5.702,10.235 8.803,7.6 12,7.6 M12,14.75 C13.5187831,14.75 14.75,13.5187831 14.75,12 C14.75,10.4812169 13.5187831,9.25 12,9.25 C10.4812169,9.25 9.25,10.4812169 9.25,12 C9.25,13.5187831 10.4812169,14.75 12,14.75 Z" id="Icon"></path>
             </g>
         </g>
     </g>

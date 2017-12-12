@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/logo/small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-400.000000, -1420.000000)">
+        <g id="Brand" transform="translate(400.000000, 1380.000000)">
+            <g id="Icon/logo/small" transform="translate(0.000000, 40.000000)">
+                <g id="Icon" transform="translate(3.000000, 2.840000)">
+                    <polygon id="Fill-1" fill="#626366" opacity="0.504812047" points="9.00271552 3.9050057 4.50698873 6.50143408 4.50698873 11.6927153 9.00336008 14.287568 13.4990749 11.6914381 13.4990749 6.50047918"></polygon>
+                    <polygon id="Fill-3" fill="#2B94BE" opacity="0.498131793" points="9.00271552 6.5037008 4.50764523 3.9078931 0.0119303714 6.5037008 0.0119303714 11.6953042 4.50764523 14.290157 9.00336008 11.6937048"></polygon>
+                    <polygon id="Fill-6" fill="#84449A" opacity="0.504812047" points="6.75438302 0.0154850133 2.25995729 2.60997971 2.25995729 7.80161897 6.75501565 10.3964359 11.2500979 7.80161897 11.2504202 2.60997971"></polygon>
+                    <polygon id="Fill-8" fill="#52B848" opacity="0.504812047" points="11.2504202 10.3964395 6.75501565 7.80128833 2.25995729 10.3964395 2.25995729 15.588043 6.75501565 18.183218 11.2510767 15.588043"></polygon>
+                    <polygon id="Fill-10" fill="#EC1E24" opacity="0.504812047" points="11.2542899 0.0119172414 6.75889735 2.60774881 6.75889735 7.79935225 11.2542899 10.3938469 15.7503151 7.79807507 15.7509716 2.60709231"></polygon>
+                    <polygon id="Fill-12" fill="#F7991C" opacity="0.5" points="13.5023192 3.9050057 9.00690279 6.50143408 9.00690279 11.6927153 13.5026176 14.287568 17.9983325 11.6914381 17.9983325 6.50047918"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

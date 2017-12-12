@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/tool/redo-a02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-700.000000, -1260.000000)">
+        <g id="Map-Area-Tools" transform="translate(60.000000, 1180.000000)" stroke="#0E71B3" stroke-width="1.8">
+            <g id="Icon/tool/redo-a02" transform="translate(640.000000, 80.000000)">
+                <polyline id="Stroke-2" transform="translate(15.525300, 9.000700) scale(-1, 1) translate(-15.525300, -9.000700) " points="18.0003 13.9502 13.0503 9.0002 18.0003 4.0512"></polyline>
+                <path d="M6.5,9 L14.5,9 C16.985,9 19,11.015 19,13.5 C19,15.985 16.985,18 14.5,18 L5.5,18" id="Stroke-3" transform="translate(12.250000, 13.500000) scale(-1, 1) translate(-12.250000, -13.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

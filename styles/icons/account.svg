@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/menu/account</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-540.000000, -1060.000000)">
+        <g id="Menu" transform="translate(60.000000, 774.000000)" stroke="#333333">
+            <g id="Icon/menu/account-a01" transform="translate(480.000000, 286.000000)">
+                <g id="Icon" transform="translate(2.000000, 2.000000)">
+                    <path d="M3.28419089,16.7193192 C5.04940684,18.4845722 7.44250832,19.5 10,19.5 C12.5574917,19.5 14.9505932,18.4845722 16.7158091,16.7193192 C15.7375353,15.7436435 14.4198109,14.9915116 12.9123109,14.5644325 L12.1810056,14.3572515 L12.6608076,13.767742 C13.5050755,12.7304307 14,11.2571059 14,9.67000008 C14,6.60629158 12.1727814,4.17000008 10,4.17000008 C7.82721863,4.17000008 6,6.60629158 6,9.67000008 C6,11.2571059 6.49492446,12.7304307 7.33919243,13.767742 L7.81899441,14.3572515 L7.08768907,14.5644325 C5.58018908,14.9915116 4.26246469,15.7436435 3.28419089,16.7193192 Z" id="Shape"></path>
+                    <circle id="Oval" cx="10" cy="10" r="9.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
