@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/zoom/location-iOS-a03</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M10.6066017,1.60660172 L16.6066017,19.6066017 L4.60660172,19.6066017 L10.6066017,1.60660172 Z M10.6066017,16.6066017 L4.60660172,19.6066017 L16.6066017,19.6066017 L10.6066017,16.6066017 Z" id="path-1"></path>
-    </defs>
-    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Core/Icons" transform="translate(-710.000000, -200.000000)">
-            <g id="Zoom" transform="translate(670.000000, 120.000000)">
-                <g id="Icon/zoom/location-iOS-a03" transform="translate(40.000000, 80.000000)">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <use id="Icon" fill="#CB3618" fill-rule="evenodd" transform="translate(10.606602, 10.606602) rotate(-45.000000) translate(-10.606602, -10.606602) " xlink:href="#path-1"></use>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg fill="#CB3618" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.8,14.8l-2.1,6.4l-8.5-17l17,8.5L14.8,14.8z"/>
 </svg>

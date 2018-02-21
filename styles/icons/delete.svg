@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/tool/delete</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M9,6 C9,4.8954305 10.3431458,4 12,4 C13.6568542,4 15,4.8954305 15,6 L19,6 L19,9 L17.8681319,9 L17.2660495,18.1315824 C17.1967391,19.1827898 16.3238725,20 15.2703827,20 L8.72961731,20 C7.67612745,20 6.80326087,19.1827898 6.73395049,18.1315824 L6.13186813,9 L5,9 L5,6 L9,6 Z M16.8659606,9 L7.13403943,9 L7.7317839,18.0657912 C7.76643909,18.5913949 8.20287238,19 8.72961731,19 L15.2703827,19 C15.7971276,19 16.2335609,18.5913949 16.2682161,18.0657912 L16.8659606,9 Z" id="path-1"></path>
-    </defs>
-    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-420.000000, -1220.000000)">
-        <g id="Map-Area-Tools" transform="translate(60.000000, 1180.000000)">
-            <g id="Icon/tool/delete-a01" transform="translate(360.000000, 40.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Icon" fill="#333333" fill-rule="nonzero" xlink:href="#path-1"></use>
-            </g>
-        </g>
-    </g>
+<svg fill="#333333" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.1,12l4.7,4.7c0.3,0.3,0.3,0.8,0,1.1c-0.3,0.3-0.8,0.3-1.1,0L12,13.1l-4.7,4.7c-0.3,0.3-0.8,0.3-1.1,0c-0.3-0.3-0.3-0.8,0-1.1l4.7-4.7L6.2,7.3C5.9,7,5.9,6.5,6.2,6.2c0.3-0.3,0.8-0.3,1.1,0l4.7,4.7l4.7-4.7c0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1L13.1,12z"/>
 </svg>
