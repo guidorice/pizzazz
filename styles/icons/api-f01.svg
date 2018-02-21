@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/menu/api-f01</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-580.000000, -1100.000000)">
-        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <g id="Icon/menu/api-f01" transform="translate(520.000000, 326.000000)">
-                <path d="M2.73481023,12.0383595 L9.70653699,18.471619 L9.02838101,19.206537 L1.26518977,12.0429424 L9.02397389,4.79329974 L9.70670026,5.52397389 L2.73481023,12.0383595 Z M14.293463,18.471619 L21.2651898,12.0383595 L14.2932997,5.52397389 L14.9760261,4.79329974 L22.7348102,12.0429424 L14.971619,19.206537 L14.293463,18.471619 Z M13.0840998,1.92813723 L14.0718628,2.0840998 L10.9159002,22.0718628 L9.92813723,21.9159002 L13.0840998,1.92813723 Z" id="Icon"></path>
-            </g>
-        </g>
-    </g>
+<svg fill="#FFFFFF" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2.7,12l7,6.4L9,19.2L1.3,12L9,4.8l0.7,0.7L2.7,12z M14.3,18.5l7-6.4l-7-6.5L15,4.8l7.8,7.2L15,19.2L14.3,18.5z M13.1,1.9l1,0.2l-3.2,20l-1-0.2L13.1,1.9z"/>
 </svg>

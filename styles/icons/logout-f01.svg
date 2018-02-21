@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/menu/logout-f01</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-300.000000, -1100.000000)">
-        <g id="Menu" transform="translate(60.000000, 774.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <g id="Icon/menu/logout-f01" transform="translate(240.000000, 326.000000)">
-                <path d="M4,3 L4,21 L14,21 L14,3 L4,3 Z M15,8 L14,8 L14,16 L15,16 L15,21.4736842 C15,21.7643604 14.8321068,22 14.625,22 L3.375,22 C3.16789322,22 3,21.7643604 3,21.4736842 L3,2.52631579 C3,2.23563961 3.16789322,2 3.375,2 L14.625,2 C14.8321068,2 15,2.23563961 15,2.52631579 L15,8 Z M19.1297475,12.9000003 L12,12.9000003 L12,11.1000004 L19.112563,11.1000004 L16.2746446,8.26208198 L17.4767262,7.06000042 L22.4264736,12.0097479 L21.2243921,13.2118294 L21.2232368,13.2106742 L17.4720815,16.9618294 L16.27,15.7597479 L19.1297475,12.9000003 Z" id="Icon"></path>
-            </g>
-        </g>
-    </g>
+<svg fill="#FFFFFF" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14,8V3H4v18h10v-5h1v5.5c0,0.3-0.2,0.5-0.4,0.5H3.4C3.2,22,3,21.8,3,21.5V2.5C3,2.2,3.2,2,3.4,2h11.2C14.8,2,15,2.2,15,2.5V8H14z M16.3,15.8l1.2,1.2l3.8-3.8l0,0l1.2-1.2l-4.9-4.9l-1.2,1.2l2.8,2.8H12v1.8h7.1L16.3,15.8z"/>
 </svg>
