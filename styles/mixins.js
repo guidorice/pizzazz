@@ -43,7 +43,7 @@ export const flex_row = ({ justify = 'flex-start', align = 'stretch', wrap = 'no
     return flex({ direction: 'row', justify, align, wrap });
 };
 
-export const flex_row = ({ justify = 'flex-start', align = 'stretch', wrap = 'nowrap' }) => {
+export const flex_column = ({ justify = 'flex-start', align = 'stretch', wrap = 'nowrap' }) => {
     return flex({ direction: 'column', justify, align, wrap });
 };
 
