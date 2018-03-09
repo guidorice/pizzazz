@@ -1,23 +1,27 @@
 {
-  "name": "pizzazz",
-  "version": "0.0.1",
-  "description": "",
-  "main": "lib/commonjs/",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/descarteslabs/pizzazz.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/descarteslabs/pizzazz/issues"
-  },
-  "homepage": "https://github.com/descarteslabs/pizzazz#readme",
-  "dependencies": {
-  },
-  "peerDependencies": {},
-  "devDependencies": {}
+    "name": "pizzazz",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/commonjs/index.js",
+    "module": "styles/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "postinstall": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/descarteslabs/pizzazz.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/descarteslabs/pizzazz/issues"
+    },
+    "homepage": "https://github.com/descarteslabs/pizzazz#readme",
+    "dependencies": {},
+    "peerDependencies": {},
+    "devDependencies": {
+        "typescript": "^2.7.2"
+    }
 }

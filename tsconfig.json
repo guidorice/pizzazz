@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "declaration": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "outDir": "./dist/commonjs",
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES5",
+        "types": [],
+        "pretty": true
+    },
+    "include": ["styles/**/*"],
+    "exclude": ["styles/**/*.test.js", "node_modules"]
+}
