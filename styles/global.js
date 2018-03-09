@@ -12,10 +12,13 @@ injectGlobal`
     * {
         box-sizing: border-box;
     }
-
+    :root {
+        font-size: 16px;
+    }
     html,
     body,
     #root {
+        font-size: 16px;
         margin: 0;
         padding: 0;
         color: ${colors.black};
