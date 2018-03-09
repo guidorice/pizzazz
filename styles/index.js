@@ -1,7 +1,5 @@
 // index: entry point for library bundle
 
-// TODO: implement library bundle with tsc + rollup
-
 import * as colors from './colors';
 import * as dimensions from './dimensions';
 import * as fonts from './fonts';
