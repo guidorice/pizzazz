@@ -1,24 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/view/maximize</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M5.5,5 L19.5,5 C19.7761424,5 20,5.22385763 20,5.5 L20,19.5 C20,19.7761424 19.7761424,20 19.5,20 L5.5,20 C5.22385763,20 5,19.7761424 5,19.5 L5,5.5 L5,5.5 C5,5.22385763 5.22385763,5 5.5,5 L5.5,5 Z M6,8 L6,19 L19,19 L19,8 L6,8 Z M9.18840457,14.5384247 L12.279754,17.7055168 C12.3378566,17.7659632 12.4172006,17.8 12.5000064,17.8 C12.5828122,17.8 12.6621562,17.7659632 12.7202588,17.7055168 L15.8116082,14.5384247 C15.8991759,14.4469115 15.9242832,14.3103508 15.8752137,14.1924687 C15.8261442,14.0745867 15.7125704,13.9986201 15.5874918,14.000019 L9.40479287,14.000019 C9.28111918,14.0017989 9.1703861,14.0789348 9.12329272,14.19611 C9.07619934,14.3132852 9.10181224,14.4479407 9.18840457,14.5384247 Z" id="path-1"></path>
-    </defs>
-    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Core/Icons" transform="translate(-440.000000, -160.000000)">
-            <g id="View" transform="translate(400.000000, 120.000000)">
-                <g id="Icon/view/maximize" transform="translate(40.000000, 40.000000)">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <g id="Icon"></g>
-                    <g id="Color/a-01-aaa" mask="url(#mask-2)" fill-rule="evenodd" fill="#333333">
-                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg fill="#333333" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5.5,5h14C19.8,5,20,5.2,20,5.5v14c0,0.3-0.2,0.5-0.5,0.5h-14C5.2,20,5,19.8,5,19.5v-14l0,0C5,5.2,5.2,5,5.5,5L5.5,5z M6,8v11h13V8H6z M9.2,14.5l3.1,3.2c0.1,0.1,0.1,0.1,0.2,0.1s0.2,0,0.2-0.1l3.1-3.2c0.1-0.1,0.1-0.2,0.1-0.3S15.7,14,15.6,14H9.4c-0.1,0-0.2,0.1-0.3,0.2S9.1,14.4,9.2,14.5z"/>
 </svg>

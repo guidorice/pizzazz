@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/outline/off</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="2.-Core" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Core/Icons" transform="translate(-1250.000000, -720.000000)">
-            <g id="Visibility" transform="translate(1170.000000, 680.000000)">
-                <g id="Icon/outline/off-a01" transform="translate(80.000000, 40.000000)">
-                    <polygon id="Shape" fill="#333333" fill-rule="evenodd" opacity="0.2" points="14.3932845 12 18.5815323 9.33475136 12 5.14650351 5.41846765 9.33475136 9.60671551 12 5.41846765 14.6652486 12 18.8534965 18.5815323 14.6652486"></polygon>
-                    <path d="M12.0007792,5.50209636 L1.78978777,12 L12.0007792,18.4979036 L22.2117706,12 L12.0007792,5.50209636 Z" id="Outline" stroke="#333333" stroke-width="0.6"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg fill="#333333" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <polygon opacity="0.2" points="14.4,12 18.6,9.3 12,5.1 5.4,9.3 9.6,12 5.4,14.7 12,18.9 18.6,14.7 "/>
+    <path d="M12,18.9L1.2,12L12,5.1L22.8,12L12,18.9z M2.3,12l9.7,6.1l9.7-6.1L12,5.9L2.3,12z"/>
 </svg>

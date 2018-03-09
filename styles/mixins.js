@@ -2,11 +2,10 @@ import * as fonts from './fonts';
 
 /******************* TEXT *******************/
 export const text = ({size = 'medium', weight = 'normal', code = false}) => {
-    const fontBase = code ? fonts.codeFontBase : fonts.fontBase;
-    const fontSize = code ? fonts.codeSizes[size] : fonts.sizes[size];
-    const lineHeight = code ? fonts.codeLineHeights[size] : fonts.lineHeights[size];
-    const fontWeight = fonts.weights[weight];
-
+    const fontBase    = code ? fonts.codeFontBase                   : fonts.fontBase;
+    const fontSize    = code ? fonts.codeSizes[size] || size        : fonts.sizes[size] || size;
+    const lineHeight  = code ? fonts.codeLineHeights[size] || size  : fonts.lineHeights[size] || size;
+    const fontWeight  = fonts.weights[weight] || weight;
     return {
         ...fontBase(),
         fontSize: fontSize,
@@ -32,24 +31,20 @@ export const ellipsis = _ => ({
 });
 
 /******************* FLEXBOX *******************/
-export const flex = ({
-    display = 'flex',
-    direction = 'row',
-    justify = 'center',
-     align = 'center',
-}) => ({
-  display,
-  flexDirection: direction,
-  justifyContent: justify,
-  alignItems: align,
+export const flex = ({ display = 'flex', direction = 'row', justify = 'flex-start', align = 'stretch', wrap = 'nowrap' } ) => ({
+    display,
+    flexDirection: direction,
+    flexWrap: wrap,
+    justifyContent: justify,
+    alignItems: align,
 });
 
-export const flex_row = ({ justify = 'center', align = 'center' }) => {
-  return flex({ direction: 'row', justify, align });
+export const flex_row = ({ justify = 'flex-start', align = 'stretch', wrap = 'nowrap' }) => {
+    return flex({ direction: 'row', justify, align, wrap });
 };
 
-export const flex_col = ({ justify = 'center', align = 'center' }) => {
-  return flex({ direction: 'column', justify, align });
+export const flex_row = ({ justify = 'flex-start', align = 'stretch', wrap = 'nowrap' }) => {
+    return flex({ direction: 'column', justify, align, wrap });
 };
 
 /******************* POSITIONING *******************/

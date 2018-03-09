@@ -100,4 +100,9 @@ ENV/
 # extra icons
 styles/icons/all
 
+# jetbrains ide's
 .idea
+
+# tmp files
+*.swp
+*.swo
