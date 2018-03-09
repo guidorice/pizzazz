@@ -1,7 +1,4 @@
-/* eslint-disable */
-
-import { css } from 'styled-components';
-import * as colors from './colors';
+// import * as colors from './colors'; // unused import
 
 export const primaryFontUrl     = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
 export const secondaryFontUrl   = 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600';
@@ -30,7 +27,7 @@ export const codeSizes = {
   'x-small'   : '0.6875rem',
   'small'     : '0.8125rem',
   'medium'    : '0.875rem',
-}
+};
 
 export const defaultLineHeight = '1.5rem';
 export const defaultParagraphHeight = '2.25rem';
@@ -49,25 +46,12 @@ export const lineHeights = {
 // TODO: update this with appropriate code line heights
 export const codeLineHeights = lineHeights;
 
-export const fontBase = css`
-  font-family: ${primaryFontFam};
-  -webkit-font-smoothing: subpixel-antialiased;
-`;
+export const fontBase = _ => ({
+  fontFamily: primaryFontFam,
+  fontSmoothing: 'subpixel-antialiased',
+});
 
-export const codeFontBase = css`
-  font-family: ${secondaryFontFam};
-  -webkit-font-smoothing: subpixel-antialiased;
-`;
-
-/*
-@define-mixin ellipsis {
-  word-break: break-word;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  @mixin-content;
-}
- */
-
-/* eslint-enable */
+export const codeFontBase = _ => ({
+    fontFamily: secondaryFontFam,
+    fontSmoothing: 'subpixel-antialiased',
+});

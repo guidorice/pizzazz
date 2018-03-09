@@ -99,3 +99,5 @@ ENV/
 
 # extra icons
 styles/icons/all
+
+.idea

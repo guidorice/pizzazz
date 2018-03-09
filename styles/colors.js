@@ -1,7 +1,3 @@
-/* eslint-disable */
-
-import { rgba } from 'polished';
-
 /* BLACKS AND WHITES */
 export const colorless        = 'rgba(255, 255, 255, 0)';
 export const white            = '#ffffff';
@@ -65,9 +61,6 @@ export const brand = {
   blue        : blue,
 }
 
-const scrimTop = rgba( 59, 150, 210, 0.4 );
-const scrimBottom = rgba( 115, 178, 94, 0.4 );
+const scrimTop = 'rgba( 59, 150, 210, 0.4 )';
+const scrimBottom = 'rgba( 115, 178, 94, 0.4 )';
 export const scrim = `linear-gradient(${scrimTop}, ${scrimBottom})`;
-
-
-/* eslint-enable */

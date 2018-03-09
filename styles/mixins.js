@@ -1,158 +1,139 @@
-/* eslint-disable */
-
-import { css } from 'styled-components';
 import * as fonts from './fonts';
 
 /******************* TEXT *******************/
-export const text = (opts = {}) => {
-  const { size = 'medium', weight = 'normal', code = false } = opts;
-  const fontBase    = code ? fonts.codeFontBase           : fonts.fontBase;
-  const fontSize    = code ? fonts.codeSizes[size]        : fonts.sizes[size];
-  const lineHeight  = code ? fonts.codeLineHeights[size]  : fonts.lineHeights[size];
-  const fontWeight  = fonts.weights[weight];
+export const text = ({size = 'medium', weight = 'normal', code = false}) => {
+    const fontBase = code ? fonts.codeFontBase : fonts.fontBase;
+    const fontSize = code ? fonts.codeSizes[size] : fonts.sizes[size];
+    const lineHeight = code ? fonts.codeLineHeights[size] : fonts.lineHeights[size];
+    const fontWeight = fonts.weights[weight];
 
-  return css`
-    ${fontBase}
-    font-size: ${fontSize};
-    font-weight: ${fontWeight};
-    line-height: ${lineHeight};
-  `;
+    return {
+        ...fontBase(),
+        fontSize: fontSize,
+        fontWeight: fontWeight,
+        lineHeight: lineHeight,
+    };
 };
 
-export const text_box = (opts = {}) => {
-  const { height = '1rem', lineHeight = '1rem' } = opts;
+export const text_box = ({ height = '1rem', lineHeight = '1rem' }) => {
+  return {
+      height: height,
+      lineHeight: lineHeight,
+      textAlign: 'center',
+  };
+};
 
-  return css`
-    height: ${height};
-    line-height: ${lineHeight};
-    text-align: center;
-  `;
-}
-
-export const ellipsis = css`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-break: break-word;
-  word-wrap: break-word;
-`;
+export const ellipsis = _ => ({
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+    wordBreak: 'break-word',
+    wordWrap: 'break-word',
+});
 
 /******************* FLEXBOX *******************/
-export const flex = (opts = {}) => {
-  const { display = 'flex', direction = 'row', justify = 'center', align = 'center' } = opts;
-  return css`
-    display: ${display};
-    flex-direction: ${direction};
-    justify-content: ${justify};
-    align-items: ${align};
-  `;
+export const flex = ({
+    display = 'flex',
+    direction = 'row',
+    justify = 'center',
+     align = 'center',
+}) => ({
+  display,
+  flexDirection: direction,
+  justifyContent: justify,
+  alignItems: align,
+});
+
+export const flex_row = ({ justify = 'center', align = 'center' }) => {
+  return flex({ direction: 'row', justify, align });
 };
 
-export const flex_row = (opts = {}) => {
-  const { justify = 'center', align = 'center' } = opts;
-  return css`
-    ${flex({ direction: 'row', justify, align })}
-  `;
-};
-
-export const flex_col = (opts = {}) => {
-  const { justify = 'center', align = 'center' } = opts;
-  return css`
-    ${flex({ direction: 'column', justify, align })}
-  `;
+export const flex_col = ({ justify = 'center', align = 'center' }) => {
+  return flex({ direction: 'column', justify, align });
 };
 
 /******************* POSITIONING *******************/
-export const self_center = css`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;
+export const self_center = _ => ({
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+});
 
-export const self_center_horiz = css`
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-`;
+export const self_center_horiz = _ => ({
+    position: 'absolute',
+    left: '50%',
+    transform: 'translate(-50%)',
+});
 
 /******************* LISTS *******************/
-export const scrollable = (direction = 'x') => css`
-  overflow-${direction}: auto;
-  -webkit-overflow-scrolling: touch;
-`;
+export const scrollable = ({ direction = 'x' }) => {
+  let res = {};
+  let dir = direction.toUpperCase();
+  res[`overflow${dir}`] = 'auto';
+  res.overflowScrolling = 'touch';
+  return res;
+};
 
 /******************* CONTAINERS *******************/
-export const lego_container = (size = '.25rem') => css`
-  padding: ${size};
-`;
+export const lego_container = (size = '.25rem') => ({
+   padding: size,
+});
 
-export const lego_block = (size = '.25rem') => css`
-  margin: 0 ${size};
-  padding: ${size} 0;
-`;
+export const lego_block = (size = '.25rem') => ({
+    margin: `0 ${size}`,
+    padding: `${size} 0`,
+});
 
 /******************* BUTTONS AND ICONS *******************/
-export const icon_base = (opts = {}) => {
-  const { size = '20px', width = '30px' } = opts;
-  return css`
-    height: 100%;
-    width: ${width};
-    box-sizing: border-box;
-    position: relative;
-    background-size: ${size};
-    background-repeat: no-repeat;
-    background-position: center;
-  `;
-};
+export const icon_base = ({ size = '20px', width = '30px'}) => ({
+    height: '100%',
+    width: width,
+    boxSizing: 'border-box',
+    position: 'relative',
+    backgroundSize: size,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+});
 
-export const button = css`
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-
-  &:focus {
-    outline: none;
-  }
-`;
+export const button = _ => ({
+    background: 'none',
+    border: 'none',
+    cursor: 'pointer',
+    outline: 'none',
+    '&:focus': {
+        outline: 'none'
+    },
+});
 
 export const rounded_button = ({
-  height = throwIfMissing('height'), width = throwIfMissing('width'),
-}) => css`
-  ${button}
-  height: ${height};
-  width: ${width};
-  border-radius: ${height / 2};
-`;
+    height = throwIfMissing('height'),
+    width = throwIfMissing('width'),
+}) => ({
+    ...button(),
+    width,
+    height,
+    borderRadius: height / 2,
+});
 
 // creates a button with an icon
-export const iconed_button = (opts = {}) => {
-  const { size = '20px', width = '30px' } = opts;
-  return css`
-    ${button}
-    ${icon_base({ size, width })}
-  `;
-};
+export const iconed_button = ({ size = '20px', width = '30px' } ) => ({
+    ...icon_base({ size, width }),
+    ...button(),
+});
 
 // creates a button with text
-export const text_button = (opts = {}) => {
-  const { heigth = '30px', width = '30px' } = opts;
-  return css`
-    ${button}
-    height: ${height};
-    width: ${width};
-    padding: 0;
-  `;
-};
+export const text_button = ({ height = '30px', width = '30px' }) => ({
+    ...button({ height, width }),
+    height,
+    width,
+    padding: 0,
+});
 
-export const rounded_outline = (opts = {}) => {
-  const { size = '2px', color = 'gray' } = opts;
-  return css`
-    outline: none;
-    box-shadow: 0 0 0 ${size} ${color};
-  `;
-};
+export const rounded_outline = ({ size = '2px', color = 'gray' }) => ({
+    outline: 'none',
+    boxShadow: `0 0 0 ${size} ${color}`,
+});
 
 /**
  * creates a checkbox icon, generally in a span in a label next to an input checkbox or radio tag
@@ -162,14 +143,11 @@ export const rounded_outline = (opts = {}) => {
         <span text />
     </label>
  */
-export const checkbox = (opts = {}) => {
-  const { size = '20px', height = '30px', width = '30px' } = opts;
-  return css`
-    ${icon_base({ size, width })}
-    height: ${height};
-    vertical-align: middle;
-  `;
-};
+export const checkbox = ({ size = '20px', height = '30px', width = '30px' }) => ({
+    ...icon_base({ size, width }),
+    height,
+    verticalAlign: 'middle',
+});
 
 /******************** PARTIAL BORDERS ********************/
 /**
@@ -182,29 +160,39 @@ export const checkbox = (opts = {}) => {
          - by default, 5px will remain on both sides of the partial border
  *
  * - example usage:
- *    partial-border({ side: 'left', border: '1px solid black', length: '7px' });
+ *    partial_border({ side: 'left', border: '1px solid black', length:
+  *    '7px' });
  *
  * Note: the parent element of the pseudo selector may require `position: relative`
  */
 export const partial_border = ({
-  side = throwIfMissing('side'), border = throwIfMissing('border'), length = '5px',
+       side = throwIfMissing('side'),
+       border = throwIfMissing('border'),
+       length = '5px',
 }) => {
-  const isVertical = side === 'right' || side === 'left';
-  const size = `calc(100% - (${length} * 2));`;
-  return css`
-    &::after {
-      content: "";
-      position: absolute;
-      ${isVertical ? 'height' : 'width'}: ${size};
-      ${isVertical ? 'top' : 'left'}: ${length};
-      ${side}: -1px;
-      border-${side}: ${border};
+    const isVertical = side === 'right' || side === 'left';
+    const size = `calc(100% - (${length} * 2));`;
+    const after = {
+        content: '',
+        position: 'absolute',
+    };
+    if(isVertical) {
+        after.height = size;
+        after.top = length;
+    } else {
+        after.width = size;
+        after.left = length;
     }
-  `;
+    after[`border${ucfirst(side)}`] = border;
+    return { '&::after': after };
 };
 
 function throwIfMissing(name) {
   throw new Error(`missing style param: ${name}`)
 }
 
-/* eslint-enable */
+function ucfirst(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+

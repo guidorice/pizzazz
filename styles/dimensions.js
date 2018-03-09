@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 /*
   minimum margin between small UI elements
  */
@@ -33,5 +31,3 @@ export const medium     = '2.25rem';  // 36px
   height of large buttons
  */
 export const large      = '3rem';     // 48px
-
-/* eslint-enable */

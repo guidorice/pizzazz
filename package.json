@@ -2,7 +2,7 @@
   "name": "pizzazz",
   "version": "0.0.1",
   "description": "",
-  "main": "eslint/index.js",
+  "main": "lib/commonjs/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,24 +17,7 @@
   },
   "homepage": "https://github.com/descarteslabs/pizzazz#readme",
   "dependencies": {
-    "eslint": ">= 3",
-    "eslint-config-airbnb": "^11.0.0",
-    "eslint-plugin-import": "^1.15.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.2.1",
-    "polished": "^1.3.0",
-    "styled-components": "^2.0.1"
   },
-  "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-config-airbnb": "^11.0.0",
-    "eslint-plugin-import": "^1.15.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.2.1"
-  },
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
-  }
+  "peerDependencies": {},
+  "devDependencies": {}
 }
