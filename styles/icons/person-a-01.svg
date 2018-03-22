@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/person/default-a01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.1588805,15.8717662 C16.1269829,16.2531209 17.8403372,17.1440474 19.0601238,18.3565859 C20.5768285,16.673101 21.5,14.4443596 21.5,12 C21.5,6.75329488 17.2467051,2.5 12,2.5 C6.75329488,2.5 2.5,6.75329488 2.5,12 C2.5,14.4443596 3.42317148,16.673101 4.93987622,18.3565859 C6.15966284,17.1440474 7.87301714,16.2531209 9.84111953,15.8717662 C8.63748029,14.9074163 7.83333333,13.1610017 7.83333333,11.1666667 C7.83333333,8.12910054 9.69881354,5.66666667 12,5.66666667 C14.3011865,5.66666667 16.1666667,8.12910054 16.1666667,11.1666667 C16.1666667,13.1610017 15.3625197,14.9074163 14.1588805,15.8717662 Z M12,22.25 C6.33908131,22.25 1.75,17.6609187 1.75,12 C1.75,6.33908131 6.33908131,1.75 12,1.75 C17.6609187,1.75 22.25,6.33908131 22.25,12 C22.25,17.6609187 17.6609187,22.25 12,22.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Core/Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-900.000000, -540.000000)">
+        <g id="User" transform="translate(900.000000, 500.000000)">
+            <g id="Icon/person/default-a01" transform="translate(0.000000, 40.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Icon" fill="#333333" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
