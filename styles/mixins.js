@@ -1,4 +1,5 @@
 import * as fonts from './fonts';
+import { focus_blue } from './colors';
 
 /******************* TEXT *******************/
 export const text = ({size = 'medium', weight = 'normal', code = false}) => {
@@ -92,12 +93,12 @@ export const icon_base = ({ size = '20px', width = '30px'}) => ({
 });
 
 export const button = _ => ({
-    background: 'none',
-    border: 'none',
-    cursor: 'pointer',
-    outline: 'none',
-    '&:focus': {
-        outline: 'none'
+    'background': 'none',
+    'border': 'none',
+    'cursor': 'pointer',
+    'outline': 'none',
+    ':focus': {
+        outline: `2px solid ${focus_blue}`,
     },
 });
 
