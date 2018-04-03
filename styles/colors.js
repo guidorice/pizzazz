@@ -24,6 +24,7 @@ export const blue__x_light    = '#e6edf5';
 export const blue__light      = '#3b96d2';
 export const blue             = '#2b94bf'; /* brand-06 */
 export const blue__dark       = '#0e71b3';
+export const focus_blue = 'rgb(131,181,214)';
 
 /* PRIMARY, SECONDARY, BACKGROUND, BOUNDARY and BRAND */
 export const primary = {
