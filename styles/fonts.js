@@ -3,9 +3,9 @@
 export const primaryFontUrl     = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
 export const secondaryFontUrl   = 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600';
 
-export const brandFontFam = '"Helvetica Neue"; Helvetica; Arial; sans-serif';
-export const primaryFontFam     = 'Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
-export const secondaryFontFam   = 'Source Code Pro, Courier, mono';
+export const brandFontFam = '"Helvetica Neue", Helvetica, Arial, sans-serif';
+export const primaryFontFam     = '"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+export const secondaryFontFam   = '"Source Code Pro", Courier, mono';
 
 
 export const weights = {
