@@ -100,6 +100,12 @@ export const button = _ => ({
     ':focus': {
         outline: `2px solid ${focus_blue}`,
     },
+    ':disabled': {
+        opacity: '0.3',
+    },
+    ':hover': {
+        opacity: '0.8',
+    },
 });
 
 export const rounded_button = ({
